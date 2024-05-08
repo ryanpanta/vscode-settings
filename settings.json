@@ -1,36 +1,66 @@
 {
-    "files.autoSave": "afterDelay",
-    "workbench.colorTheme": "Min Dark",
-    "files.associations": {
-        ".env.*": "dotenv",
-        ".prettierrc": "json",
-        "*.css": "css"
-      },
-    "editor.fontFamily": "JetBrains Mono",
-    "explorer.sortOrder": "foldersNestsFiles",
-    "explorer.fileNesting.patterns": {
-      "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*, package-lock.json, .gitig*",
-      "tailwind.config.js": "tailwind.config*, postcss.config*",
-      ".env.local": ".env*",
-      ".env": ".env*"
-    },
-    "explorer.fileNesting.enabled": true,
-    "symbols.hidesExplorerArrows": false,
-    "workbench.iconTheme": "symbols",
-    "terminal.integrated.fontFamily": "JetBrains Mono",
-    "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "javascript.suggest.autoImports": true,
-    "extensions.ignoreRecommendations": true,
-    "editor.parameterHints.enabled": false,
-    "editor.suggestSelection": "first",
-    "workbench.editor.labelFormat": "short",
-    "editor.fontLigatures": true,
-    "explorer.compactFolders": false,
-    "editor.semanticHighlighting.enabled": false,
-    "editor.autoClosingBrackets": "always",
-    "editor.autoClosingQuotes": "always",
-    "html.autoClosingTags": true,
+  "editor.tabSize": 4,
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "editor.fontFamily": "JetBrains Mono",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontLigatures": true,
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  "window.menuBarVisibility": "compact",
+  //"files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Min Dark",
+  "workbench.statusBar.visible": true,
+  "workbench.layoutControl.enabled": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*, yarn.lock, package-lock.json, pnpm-lock.yaml"
+  },
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+
+  "editor.formatOnSave": true,
+  "[javascriptreact, typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.env.windows": {},
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "files.autoSave": "afterDelay",
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
     "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.rulers": [
+      120
+    ],
+    "editor.semanticHighlighting.enabled": true
+  },
+  "prettier.tabWidth": 4,
+  "files.associations": {
+    "*.css": "css"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
